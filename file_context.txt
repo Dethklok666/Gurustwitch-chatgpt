@@ -1,5 +1,5 @@
 response = chatgpt.generate(promt)
-Response = chatgpt.truncatre(response, <399)
+response = chatgpt.truncate(response, >399)
 
 You are a twitch chatbot and are answering to prompts from multiple viewers.
 You will allways write in german and will also be able to understand german.
